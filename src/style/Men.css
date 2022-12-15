@@ -1,0 +1,13 @@
+.men-right{
+    gap: 140px;
+    text-align: center;
+    margin: auto;
+
+}
+@media(max-width:900px){
+    .men-right{
+        gap: 20px;
+        /* text-align: center; */
+        transform: translateX(-20px);
+    }
+}

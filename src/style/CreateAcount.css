@@ -1,0 +1,76 @@
+.createAcount{
+    margin: auto;
+    border-radius: 20px;
+    width: 65%;
+    height: 370px;
+    padding: 50px;
+    margin-top: 80px;
+    background:rgb(248, 248, 248);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.acountInput{
+    background: white;
+    border-radius: 10px;
+    /* padding: 8px 160px 8px 20px; */
+    width: 40%;
+    height: 40px;
+    padding: 0px 0px 0px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.addressInput{
+    background: white;
+    border-radius: 8px;
+    width: 80%;
+    height: 40px;
+    padding: 0px 0px 0px 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.acount-btn{
+    background: white;
+    border-radius: 10px;
+    width: 60%;
+    height: 40px;
+    background: blue;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    
+
+}
+.acount-heading{
+    font-size: 24px;
+    font-weight: 900;
+    padding: 10px 0px 10px 10px;
+    letter-spacing: 2px;
+}
+
+@media(max-width:900px){
+   
+   .createAcount{
+    /* width: 50%; */
+    height: 390px;
+    width: 80%;
+    margin-top: 40px;
+    
+   }
+   
+    .acountInput{
+       
+        padding: 8px 10px 8px 5px;
+        width:45% ;
+      
+    }
+
+    .addressInput{
+       
+    
+        padding: 10px 80px 10px 10px;
+      
+    }
+   
+
+
+    
+
+}

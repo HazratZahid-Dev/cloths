@@ -1,0 +1,9 @@
+.women-right{
+    gap: 140px;
+}
+
+@media(max-width:900px){
+    .women-right{
+        gap: 20px;
+    }
+}
